@@ -1,6 +1,6 @@
 import './App.css';
-// import Contact from './components/Contact';
-// import Images from './components/Images';
+import Contact from './components/Contact';
+import Images from './components/Images';
 import OurIncubatesData from './components/OurIncubatesDataExistingIncubates';
 import OurIncubatesTable from './components/OurIncubatesTableExistingIncubates';
 // import OurIncubatesGraduatesIncubatesData from './components/OurIncubatesGraduatesIncubatesData';
@@ -9,8 +9,8 @@ import OurIncubatesTable from './components/OurIncubatesTableExistingIncubates';
 function App() {
   return (
   <>
-  <OurIncubatesData />
-  <OurIncubatesTable />
+  <Contact />
+  <Images />
   </>
   );
 }
